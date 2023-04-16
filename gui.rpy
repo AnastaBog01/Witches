@@ -56,13 +56,13 @@ define gui.interface_text_color = '#ffffff'
 ## Шрифты и их размеры #########################################################
 
 ## Шрифт, используемый внутриигровым текстом.
-define gui.text_font = "EpilepsySans.ttf"
+define gui.text_font = "DejaVuSans.ttf"
 
 ## Шрифт, используемый именами персонажей.
-define gui.name_text_font = "EpilepsySans.ttf"
+define gui.name_text_font = "DejaVuSans.ttf"
 
 ## Шрифт, используемый текстом вне игры.
-define gui.interface_text_font = "EpilepsySans.ttf"
+define gui.interface_text_font = "DejaVuSans.ttf"
 
 ## Размер нормального текста диалога.
 define gui.text_size = 22
@@ -71,10 +71,10 @@ define gui.text_size = 22
 define gui.name_text_size = 30
 
 ## Размер текста в пользовательском интерфейсе.
-define gui.interface_text_size = 38
+define gui.interface_text_size = 22
 
 ## Размер заголовков в пользовательском интерфейсе.
-define gui.label_text_size = 30
+define gui.label_text_size = 24
 
 ## Размер текста на экране уведомлений.
 define gui.notify_text_size = 16
