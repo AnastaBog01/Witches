@@ -1,7 +1,7 @@
 ﻿# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-define e = Character('Главный Герой ', color="#ea661f")
+define e = Character('[ename]', color="#fffb00")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -12,6 +12,10 @@ define e = Character('Главный Герой ', color="#ea661f")
 label start:
 
     scene bg room
+    with fade 
+
+    $ ename = renpy.input ("Введите имя персонажа")
+
     show hero tired right
 
     e "*Бормочет*"
